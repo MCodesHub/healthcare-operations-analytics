@@ -110,32 +110,7 @@ healthcare-operations-analytics/
 - MySQL
 - Tableau
 
-## How to Run the Python Analysis
-
-1. Clone or download the repository.
-2. Open a terminal in the project folder.
-3. Create and activate a virtual environment:
-
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-
-   On Windows, activate it with `.venv\Scripts\activate`.
-
-4. Install the required packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Run the analysis:
-
-   ```bash
-   python src/data_analysis.py
-   ```
-
-The script prints the inspection and analysis results, refreshes the charts, and exports cleaned data and summary CSV files to `data/processed/`.
+The Python script analyzes the dataset, displays the results, creates the visualizations, and exports processed CSV files for further analysis and Tableau.
 
 ## Author
 
