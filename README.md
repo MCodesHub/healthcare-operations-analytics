@@ -90,7 +90,6 @@ healthcare-operations-analytics/
 │   └── analysis_queries.sql
 ├── src/
 │   └── data_analysis.py
-├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
