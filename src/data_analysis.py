@@ -132,8 +132,12 @@ service_summary = (
 
 print("\nWAIT TIMES BY SHIFT")
 print(shift_summary.round(2).to_string(index=False))
+
 print("\nFACILITY SUMMARY")
 print(facility_summary.round(2).to_string(index=False))
+
+print("\nSERVICE LINE SUMMARY")
+print(service_summary.round(2).to_string(index=False))
 
 
 # 10. Create Visualizations
