@@ -68,13 +68,13 @@ These findings describe patterns in the synthetic dataset and are not clinical c
 
 ![Average emergency department wait by arrival hour](reports/figures/wait_by_hour.png)
 
-The chart shows a clear increase in average wait times for arrivals during the evening hours.
+Average wait times are highest for patients arriving between 3 PM and 10 PM, showing that the evening shift has the longest waits in the synthetic dataset.
 
 ### 72-hour revisit rate by service line
 
 ![72-hour revisit rate by service line](reports/figures/revisit_by_service.png)
 
-The chart compares revisit percentages across service lines and highlights where additional review may be useful.
+The chart compares 72-hour revisit rates across service lines. Emergency Medicine has the highest revisit rate in the synthetic dataset, while Pulmonology has the lowest.
 
 ## Tableau Dashboard — In Progress
 
