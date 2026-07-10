@@ -76,12 +76,6 @@ Average wait times are highest for patients arriving between 3 PM and 10 PM, sho
 
 The chart compares 72-hour revisit rates across service lines. Emergency Medicine has the highest revisit rate in the synthetic dataset, while Pulmonology has the lowest.
 
-## Tableau Dashboard — In Progress
-
-The cleaned dataset is prepared for Tableau, but a completed Tableau workbook or published dashboard is not currently included. The planned dashboard will contain four KPI cards, an hourly wait-time trend, facility and service-line comparisons, and a small set of filters.
-
-See the [Tableau dashboard guide](tableau/dashboard_guide.md) for the proposed layout and calculated fields.
-
 ## Repository Structure
 
 ```text
@@ -96,8 +90,6 @@ healthcare-operations-analytics/
 │   └── analysis_queries.sql
 ├── src/
 │   └── data_analysis.py
-├── tableau/
-│   └── dashboard_guide.md
 ├── LICENSE
 ├── README.md
 └── requirements.txt
@@ -110,7 +102,7 @@ healthcare-operations-analytics/
 - MySQL
 - Tableau
 
-The Python script analyzes the dataset, displays the results, creates the visualizations, and exports processed CSV files for further analysis and Tableau.
+The Python script cleans and analyzes the dataset, creates visualizations, and exports processed CSV files for further analysis.
 
 ## Author
 
