@@ -1,0 +1,7 @@
+service_line,encounters,average_wait_minutes,revisit_rate
+Emergency Medicine,4214,55.415,0.06
+Gastroenterology,1396,56.589,0.059
+Neurology,1184,57.128,0.058
+Cardiology,1718,56.79,0.054
+Orthopedics,1831,55.563,0.054
+Pulmonology,1657,55.941,0.052

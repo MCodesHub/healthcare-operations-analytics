@@ -1,0 +1,5 @@
+facility_name,encounters,average_wait_minutes,median_length_of_stay,revisit_rate
+University Medical Center,5876,56.136,214.0,0.054
+Murrieta Medical Center,2771,56.126,213.0,0.066
+Children's Hospital,2149,55.975,215.0,0.054
+East Campus Hospital,1204,55.214,213.0,0.056
