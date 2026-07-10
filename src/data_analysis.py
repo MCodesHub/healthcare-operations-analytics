@@ -1,4 +1,3 @@
-"""Beginner-friendly exploratory analysis of synthetic ED encounters."""
 
 # 1. Import Libraries
 from pathlib import Path
@@ -40,7 +39,7 @@ duplicate_count = df.duplicated().sum()
 print(f"\nDUPLICATE ROWS: {duplicate_count}")
 
 
-# 6. Audit Missing Values
+# 6. Check Missing Values
 missing_values = df.isna().sum().sort_values(ascending=False)
 print("\nMISSING VALUES")
 print(missing_values[missing_values > 0] if missing_values.any() else "No missing values found")
@@ -71,7 +70,6 @@ for column in text_columns:
 df = df[df["esi_acuity"].between(1, 5)]
 df = df[(df["wait_minutes"] >= 0) & (df["length_of_stay_minutes"] >= 0)]
 
-# Create simple calculated columns used in the analysis.
 df["arrival_date"] = df["arrival_datetime"].dt.date
 df["arrival_hour"] = df["arrival_datetime"].dt.hour
 df["month"] = df["arrival_datetime"].dt.to_period("M").astype(str)
@@ -93,7 +91,6 @@ print(f"Median length of stay: {df['length_of_stay_minutes'].median():.1f} minut
 print(f"72-hour revisit rate: {df['revisit_72h'].mean():.1%}")
 print(f"Average satisfaction: {df['satisfaction_score'].mean():.2f} out of 5")
 
-# Filtering example: review encounters with waits longer than 60 minutes.
 long_waits = df[df["wait_minutes"] > 60].sort_values("wait_minutes", ascending=False)
 print(f"Encounters with waits over 60 minutes: {len(long_waits):,}")
 
