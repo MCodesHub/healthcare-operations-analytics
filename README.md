@@ -141,4 +141,4 @@ The script prints the inspection and analysis results, refreshes the charts, and
 
 Michael Chavez
 
-Senior Data Analytics Student
+Data Analytics Student
